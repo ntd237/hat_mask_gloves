@@ -1,0 +1,13 @@
+train: D:/Workspace/Project/ATIN/2025/3/10/yolov11_training/data/train/images
+val: D:/Workspace/Project/ATIN/2025/3/10/yolov11_training/data/valid/images
+test: D:/Workspace/Project/ATIN/2025/3/10/yolov11_training/data/test/images
+
+nc: 3
+names: ['glovess', 'hat', 'mask']
+
+roboflow:
+  workspace: bbc-4k9ak
+  project: hat_mask_glovess
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bbc-4k9ak/hat_mask_glovess/dataset/7
